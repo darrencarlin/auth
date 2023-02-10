@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <Navigation />
       <div className="flex h-screen w-screen items-center justify-center bg-slate-900">
-        <div className="rounded-lg bg-slate-100 p-8">
+        <div className="flex flex-col rounded-lg bg-slate-100 p-12">
           {providers &&
             Object.values(providers).map(({ id, name }: Provider) => {
               return (
